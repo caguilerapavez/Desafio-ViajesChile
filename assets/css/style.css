@@ -1,0 +1,93 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+h2,
+.TitleSection i {
+  font-size: 40px;
+}
+
+.navbar {
+  margin: -40px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+  
+.navbar img {
+  height: 36px;
+  margin-right: 10px;
+}
+  
+.card {
+  color: white;
+  background-color: #0dcaf0;
+}
+  
+.card img {
+  overflow: hidden;
+  background-size: cover;
+}
+
+.card-img-top {
+  width: 25;
+  height: 15em;
+}
+
+#nosotros,
+#destacados,
+#contacto {
+  padding-top: 3em;
+  margin-top: -3em;
+}
+
+footer i {
+  font-size: 40px;
+}
+
+a i {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  opacity: 0.6;
+}
+
+.badge {
+  font-size: 0.5em;
+  font-weight: 400;
+  position: relative;
+  top: -0.9em;
+}
+
+.btnEnviar {
+  color: white;
+  background-color: #0dcaf0;
+}
+
+
+@media (max-width: 992px) {
+  h2,
+  .TitleSection i {
+    font-size: 32px;
+  }
+
+  .navbar {
+    margin: 0;
+    background-color: black;
+  }
+
+  #nosotros,
+  #destacados,
+  #contacto {
+    padding-top: 14em;
+    margin-top: -14em;
+  }
+}
